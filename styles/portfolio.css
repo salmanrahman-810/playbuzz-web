@@ -86,10 +86,12 @@ nav li a{
 }
 .item-description{
     font-weight: 600;
+    padding:5px;
 }
 .about-items{
     display: flex;
     justify-content: space-around;
+
 }
 .skills-container{
     
@@ -113,6 +115,38 @@ nav li a{
    padding: 2%;
     margin-left: 15%;
 }
+ol li , h3{
+    margin-left: 100px; 
+}
+label{
+     display: block;}
+
+     footer{
+        display:flex ;
+        gap: 100px
+        ;
+        background-color: #FFF8F3;
+        margin-top: 100px;
+        padding: 130px 200px;
+        
+    }
+    .footer-column{
+        width: 40%;
+    }
+    .social-links a{
+        margin-right: 20px;
+    }
+    .contact input[type="text"],.contact input[type="email"] , textarea{
+        display: block;
+        margin-bottom: 25px;
+        padding: 18px 35px;
+        color: #757575;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        border: 0px;
+        width: 100%;
+    }
+      
 
 
     
